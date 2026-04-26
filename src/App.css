@@ -1,0 +1,30 @@
+/* App.css */
+html, body, #root {
+    height: 100%;
+    position: relative;
+    /* Remove overflow: hidden; */
+    z-index: 10;
+  }
+  
+  [data-scroll-container] {
+    overflow: hidden;
+    height: 100%;
+  }
+
+  ::selection {
+    color: white;
+    background:rgba(48, 1, 51, 0.685) ;
+  }
+
+  #react-logo {
+    animation: rotate 5s infinite linear; /* Rotate the logo infinitely */
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

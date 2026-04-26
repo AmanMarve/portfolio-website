@@ -1,0 +1,131 @@
+{
+    "personal": {
+        "name": "Aman Marve",
+        "roles": [
+            "Frontend Developer",
+            "MERN Stack Developer"
+        ],
+        "tagline": "A passionate Frontend / MERN Stack Developer",
+        "currentFocus": "Currently specializing in Frontend (ReactJs)",
+        "currentJob": "Frontend Developer at ",
+        "currentCompany": "RidesIQ Incorporate (Remote)",
+        "email": "aman1.marve@gmail.com",
+        "resume": "Aman_marve_resume.pdf"
+    },
+    "social": {
+        "twitter": "https://twitter.com/MarveAman30",
+        "linkedin": "https://linkedin.com/in/aman-marve-725565219",
+        "github": "https://github.com/AmanMarve"
+    },
+    "skills": [
+        "React.js",
+        "Next.js",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL"
+    ],
+    "about": {
+        "boldRole": "Software Developer",
+        "description": " with expertise in Frontend and Backend development, also experienced in working with top service-based teams.",
+        "additionalInfo": "Passionate about continuous learning and problem-solving, I focus on writing clean, maintainable code while delivering efficient and impactful digital solutions. I am always eager to explore new technologies and contribute to innovative projects that create real-world value."
+    },
+    "education": [
+        {
+            "degree": "Master of Computer Application (MCA)",
+            "institution": "Gondwana University",
+            "duration": "2023 - Pursuing"
+        },
+        {
+            "degree": "Bachelor of Science (B.Sc) in Information Technology",
+            "institution": "Gondwana University",
+            "duration": "2019 - 2022"
+        },
+        {
+            "degree": "Higher Secondary Certificate (HSC)",
+            "institution": "Nagpur Divisional Board",
+            "duration": "2017 - 2019"
+        }
+    ],
+    "experience": [
+        {
+            "title": "Application Developer",
+            "company": "RidesIQ Incorporate",
+            "type": "Remote",
+            "duration": "Apr 2025 - Present",
+            "responsibilities": [
+                "Developing scalable web applications using Next.js and React.js.",
+                "Built a real-time GPS tracking system handling live data efficiently.",
+                "Integrated MapLibre for interactive and high-performance map visualization.",
+                "Designed and developed an informative SaaS website to effectively pitch and onboard clients."
+            ]
+        },
+        {
+            "title": "Web Developer Intern",
+            "company": "Sapalogy Pvt Ltd",
+            "type": "Nagpur",
+            "duration": "May 2024 - Mar 2025",
+            "responsibilities": [
+                "Developed multiple business websites to enhance company visibility and drive sales growth.",
+                "Built a mini eCommerce application with PhonePe payment integration using PHP and MySQL.",
+                "Implemented a CMS for seamless blog management and content publishing.",
+                "Performed SEO optimization to improve website ranking and support digital marketing efforts."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Quotation Generator",
+            "description": "I developed a Quotation Generator application to simplify the daily quotation creation process for a friend who needed to generate multiple quotations efficiently.",
+            "techs": [
+                "React.js",
+                "Tailwind CSS"
+            ],
+            "link": "https://quotation-app-mini.netlify.app/",
+            "status": "Completed",
+            "image": "Quotation.png"
+        },
+        {
+            "title": "Ganesh Services",
+            "description": "E-commerce application with admin panel. Built with MERN and TailwindCSS. My first project created independently.",
+            "techs": [
+                "React.js",
+                "Tailwind CSS",
+                "Express.js",
+                "Node.js",
+                "MongoDB"
+            ],
+            "link": "https://ganesh-roservices.netlify.app/",
+            "status": "Completed",
+            "image": "GaneshService.png"
+        },
+        {
+            "title": "React Weather App",
+            "description": "A weather app created while learning how to use APIs and other web technologies.",
+            "techs": [
+                "React.js",
+                "JavaScript",
+                "CSS3"
+            ],
+            "link": "https://weather-appaman.netlify.app/",
+            "status": "Completed",
+            "image": "Wheater App.png"
+        },
+        {
+            "title": "RayBan Concept UI",
+            "description": "A conceptual UI for RayBan, created using HTML, CSS, and SheryJs library for practice.",
+            "techs": [
+                "HTML5",
+                "CSS3",
+                "JavaScript"
+            ],
+            "link": "https://amanmarve.github.io/Rayban-website/",
+            "status": "Completed",
+            "image": "RayBan BG.png"
+        }
+    ]
+}
