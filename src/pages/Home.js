@@ -25,10 +25,10 @@ const Home = () => {
   }, []);
 
   return (
-    <div className='min-h-screen'>
+    <div className='pb-10'>
       <div
         id="home"
-        className="home-container mt-6 md:mt-[3rem] flex -mb-10 flex-col md:flex-row items-start justify-start relative px-[6%]"
+        className="home-containers mt-[5rem] flex -mb-10 flex-col md:flex-row items-start justify-start relative px-[6%]"
         data-aos="fade-up"
       >
         <img
@@ -40,19 +40,19 @@ const Home = () => {
 
         <div className='relative z-10 home-text flex items-start flex-col md:items-start md:w-3/2 mx-8 md:mx-20 mt-5'>
           <p
-            className='text-xl font-semibold -mx-3 md:text-3xl text-[#bb3ccf] text-center md:text-left dark:text-[#bb3ccf]'
+            className='text-xl font-semibold md:text-4xl text-[#bb3ccf] text-left dark:text-[#bb3ccf]'
             data-aos="fade-left"
           >
             Hi there!👋 I'm
           </p>
           <h1
-            className='text-[3.5rem] w-[150%] -mx-5 -mt-5 md:-mt-10 lg:text-[6rem] font-bold text-left md:text-left text-gray-900 dark:text-white'
+        className='text-[3rem] w-full -mt-5 md:-mt-10 lg:text-[7rem] font-bold text-left text-gray-900 dark:text-white'
             data-aos="fade-down"
           >
             {data.personal.name}
           </h1>
           <p
-            className='text-[1rem] w-[110%] md:-mt-6 md:text-2xl font-thin -mt-3 -mx-4 text-start md:text-left text-gray-800 dark:text-gray-300'
+           className='text-[1rem] w-full md:-mt-6 md:text-4xl font-thin -mt-3 text-start text-gray-800 dark:text-gray-300'
             data-aos="fade-up" 
           >
             A passionate <span className='text-green-700 font-bold'>
@@ -65,11 +65,10 @@ const Home = () => {
       </div>
       <div
         id='last-div'
-        className='flex mt-[8rem] md:mt-[6.6rem] md:gap-[25rem] flex-col md:flex-row justify-center items-center md:items-start'
-        data-aos="fade-up"
+        className='flex mt-[8rem] md:mt-[14rem] md:gap-[25rem] flex-col md:flex-row justify-center items-center md:items-start'
       >
         <div className='mb-6 -mx-4 md:mb-0'>
-          <ul className='md:text-[17px] font-semibold items-start p-2 w-[150%] text-[14px] text-gray-900 dark:text-gray-300'>
+          <ul className='md:text-[17px] font-semibold items-start p-2 w-full text-[14px] text-gray-900 dark:text-gray-300'>
             <li>💼{data.personal.currentFocus}</li>
             <li>⚡{data.personal.currentJob}<span className='text-[#BB3CCF] font-semibold'>{data.personal.currentCompany}</span>.</li>
           </ul>
@@ -77,13 +76,11 @@ const Home = () => {
         <div className='mt-10 md:mt-0'>
           <p
             className='font-bold md:text-[xl] text-[15px] text-gray-400 mb-8 md:mb-6 text-center md:text-right dark:text-gray-300'
-            data-aos="fade-right" 
           >
             My skills
           </p>
           <div
             className="flex -mt-5 flex-wrap justify-center md:justify-between space-x-10 md:space-x-3"
-            data-aos="fade-left"
           >
             <FaReact className="text-4xl mb-2 text-blue-500 dark:text-blue-400" />
             <RiNextjsFill className="text-4xl mb-2" />

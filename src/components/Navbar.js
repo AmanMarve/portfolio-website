@@ -76,7 +76,7 @@ const Navbar = () => {
         </div>
 
 
-        <div className="hidden font-semibold items-center md:flex space-x-9" data-aos="fade-right">
+        <div className="hidden font-semibold items-center md:flex space-x-9">
           <a href="#home" className="text-black dark:text-white hover:text-gray-700 dark:hover:text-gray-300 transition-colors">Home</a>
           <a href="#about" className="text-black dark:text-white hover:text-gray-700 dark:hover:text-gray-300 transition-colors">About</a>
           <a href="#projects" className="text-black dark:text-white hover:text-gray-700 dark:hover:text-gray-300 transition-colors">Projects</a>
