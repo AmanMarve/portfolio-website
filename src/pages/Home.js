@@ -70,7 +70,7 @@ const Home = () => {
       >
         <div className='mb-6 -mx-4 md:mb-0'>
           <ul className='md:text-[17px] font-semibold items-start p-2 w-[150%] text-[14px] text-gray-900 dark:text-gray-300'>
-            <li>{data.personal.currentFocus}</li>
+            <li>💼{data.personal.currentFocus}</li>
             <li>⚡{data.personal.currentJob}<span className='text-[#BB3CCF] font-semibold'>{data.personal.currentCompany}</span>.</li>
           </ul>
         </div>
